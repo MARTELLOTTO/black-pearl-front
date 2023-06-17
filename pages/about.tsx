@@ -1,11 +1,7 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import Link from "next/link";
 import { Navbar } from "@/components/navbar/Navbar";
+import Link from "next/link";
 
-const inter = Inter({ subsets: ["latin"] });
-
-export default function Home() {
+export default function About() {
   return (
     <>
       <Navbar />
@@ -14,10 +10,11 @@ export default function Home() {
       >
         <h1 className="text-[60px] font-bold">
           Ir a{" "}
-          <Link className="text-blue-600" href="/about">
-            About
+          <Link className="text-blue-600" href="/">
+            Home
           </Link>
         </h1>
+
         <p className="font-normal">
           Get Started by editing{" "}
           <code className="bg-slate-100 p-2 rounded-md ml-1">
