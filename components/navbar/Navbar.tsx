@@ -43,6 +43,7 @@ export const Navbar = () => {
         <div className="hidden lg:block">
           <ActiveLink title="Home" href="/" />
           <ActiveLink title="About" href="/about" />
+          <ActiveLink title="Login" href="/login" />
           <ActiveLink title="Register" href="/register" />
         </div>
 
